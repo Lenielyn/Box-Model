@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, footer, .content-area {
+    border: 2px solid #000;
+    margin: 5px;
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+}
+
+header, footer {
+    background-color: #ffffff; 
+    height: 40px;
+}
+
+nav {
+    background-color: #ffffff; 
+    height: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0px;
+}
+
+.content-area {
+    flex-basis: calc(50% - 10px); 
+    background-color: #ffffff; 
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    height: 80px;
+}
