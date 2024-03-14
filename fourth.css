@@ -1,70 +1,42 @@
-body > *{
-    border: 3px solid #266bb999; 
-    font-family: Arial, Helvetica, sans-serif;
-
-    background-color: #266bb999;
+body {
+   margin: 5px;
+   font-size: 2em;
 }
- header{
-    padding: 50px;
-    height: 50px;
-    text-align: center;
 
- }
+header, nav, .contentA, main, .contentB, footer {
+   border: 5px solid;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
- nav{
-    padding: 20px;
-    height: 20px;
-    text-align: center;
+main {
+   width: 700px;
+   height: 300px;
+   margin-bottom: 5px;
+}
 
+header, nav, footer {
+   height: 60px;
+   margin-bottom: 5px;
+}
 
- }
+.header-nav {
+   display: flex;
+}
 
- main{
-    text-align: center;
-    padding-top: 200px;
-    margin: none  ;
-    width: 620px;
-    height: 20vh;
-    border: 3px solid #266bb999;;
-    float: left;
-    text-align: center;
- }
+.contentA, .contentB {
+   flex: 1;
+   margin-bottom: 5px;
+   
+}
 
- .about{
-    height: 20vh;
-    width: 200px;
-    padding-right:200px;
-    border: 3px solid #266bb999;
-    float:right;
-    text-align: center;
-    margin: 3px;
- }
- .pic{
-    height: 20vh;
-    width: 130px;
-    padding-right:100px;
-    border: 3px solid #266bb999;
-    float:right;
-    text-align: center;
-    margin: 3px;
- }  
- .recent{
-    height: 29vh;
-    width: 340px;
-    padding-right:300px;
-    border: 3px solid #266bb999;
-    float: right;
-    text-align: center;
-    margin: 3px;
+.contentA {
+   margin-right: 5px;
+   
+}
 
- } 
- footer{
-    
-    width: 206vh;
-    text-align: center;
-    height: 30px;
-    float: inline-end;
-    padding-bottom: 30px;
-    text-align: center;
-
- }
+.contentB {
+   margin-left: 5px;
+}
+/* Lenielyn D. Ponteras */
